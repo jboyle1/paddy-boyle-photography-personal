@@ -1,0 +1,156 @@
+<!-- Navigation Bar -->
+        <nav class="navbar navbar-fixed-top navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand page-scroll brand-position" href="/">
+                        <a href="/"><img class="logo" src="Favicon.jpg"></a>
+                        <h1 class="brand">Paddy Boyle |
+                            <span class="brand-light-font">Photos</span></h1>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li class="lien">
+                            <a href="/">
+                                <i class="fa fa-home sr-icons icon"></i>Home</a>
+                        </li>
+                        <li class="lien">
+                            <a href="/about">
+                                <i class="fa fa-bookmark sr-icons icon"></i>
+                                About</a>
+                        </li>
+                        <li class=" lien">
+                            <a href="/contact">
+                                <i class="fa fa-phone-square sr-icons icon"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- End of Navigation Bar -->
+<div id="index-body">
+    <div class="home-page">
+        <!-- Main Image -->
+        <a href="#top">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="things.jpg" width="100%" alt="header picture">
+                </div>
+                <div class="carousel-caption">
+                    <h1>Things</h1>
+          
+                </div>
+            </div>
+        </a>
+        <!--//Main Image -->
+
+        <!-- Gallery Navigation table -->
+        <div id="top">
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <td>
+                                <a class="link" href="/cat-1">People</a>
+                            </td>
+                            <td>
+                                <a class="link" href="/cat-2">Places</a>
+                            </td>
+                            <td>
+                                <a class="link active" href="/cat-3">Things</a>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <!-- //Gallery Navigation table -->
+
+<!-- Cat 2 portfolio section -->
+        <div class="tab-content">
+            <div id="category1">
+                <div class="row">
+                    <div class="tab-pane active">
+                        <div class="popup-gallery7">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="sol">
+                                    <a class="gallery7" href="001TA.jpg" data-toggle="tooltip">
+                                        <img class="img-responsive" src="001MAINp.jpg" alt="First category picture">
+                                        <div class="behind">
+                                            <div class="head text-center">
+                                                <ul class="list-inline"></ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-box2">Artifacts</h2>
+                                    <ul>
+                                        {{#each cat3001}}
+                                            <li><a class="gallery7" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane active">
+                        <div class="popup-gallery8">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="sol">
+                                    <a class="gallery8" href="001TSL.jpg" data-toggle="tooltip">
+                                        <img class="img-responsive" src="002MAINp.jpg" alt="First category picture">
+                                        <div class="behind">
+                                            <div class="head text-center">
+                                                <ul class="list-inline"></ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-box2">Still Life</h2>
+                                    <ul>
+                                        {{#each cat3002}}
+                                            <li><a class="gallery8" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane active">
+                        <div class="popup-gallery9">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <div class="sol">
+                                    <a class="gallery9" href="001TF.jpg" data-toggle="tooltip">
+                                        <img class="img-responsive" src="003MAINp.jpg" alt="First category picture">
+                                        <div class="behind">
+                                            <div class="head text-center">
+                                                <ul class="list-inline"></ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <h2 class="text-box2">Flora</h2>
+                                    <ul>
+                                        {{#each cat3003}}
+                                            <li><a class="gallery9" href="{{this.img}}" data-toggle="tooltip" data-original-title="View Showcase"></a>
+                                        {{/each}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
