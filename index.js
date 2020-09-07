@@ -717,5 +717,5 @@ app.get('/about', (req, res) => res.render('about', context));
 app.get('/contact', (req, res) => res.render('contact'));
 
 // Server listener
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 2000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
