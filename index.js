@@ -348,8 +348,6 @@ const context = {
             img: '035PO.jpg',
         },{
             img: '036PO.jpg',
-        },{
-            img: '037PO.jpg',
         }
     ],
     cat2002: [
