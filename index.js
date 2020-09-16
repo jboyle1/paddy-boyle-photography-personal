@@ -254,8 +254,6 @@ const context = {
         },{
             img: '037PR.jpg',
         },{
-            img: '025PR.jpg',
-        },{
             img: '038PR.jpg',
         },{
             img: '039PR.jpg',
