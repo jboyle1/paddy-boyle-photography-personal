@@ -415,12 +415,34 @@ td {
     font-size: 18px;
 }
 
-#index-body .table thead tr td a.active,
-#index-body .table thead tr td a.focus,
-#index-body .table thead tr td a:active,
-#index-body .table thead tr td a:focus,
-#index-body .table thead tr td a:hover {
-    border-bottom: solid 5px #31b0d5;
+#index-body .table thead.link1 tr td a.active,
+#index-body .table thead.link1 tr td a.focus,
+#index-body .table thead.link1 tr td a:active,
+#index-body .table thead.link1 tr td a:focus,
+#index-body .table thead.link1 tr td a:hover {
+    border-bottom: solid 5px #788cbe;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#index-body .table thead.link2 tr td a.active,
+#index-body .table thead.link2 tr td a.focus,
+#index-body .table thead.link2 tr td a:active,
+#index-body .table thead.link2 tr td a:focus,
+#index-body .table thead.link2 tr td a:hover {
+    border-bottom: solid 5px #766536;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#index-body .table thead.link3 tr td a.active,
+#index-body .table thead.link3 tr td a.focus,
+#index-body .table thead.link3 tr td a:active,
+#index-body .table thead.link3 tr td a:focus,
+#index-body .table thead.link3 tr td a:hover {
+    border-bottom: solid 5px #277829;
     color: #f1f1f1;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
@@ -455,33 +477,7 @@ td {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
- hr {
-    margin: 0 auto;
-    width: 30px;
-    border-width: 3px;
-    border-color: #d43f3a;
-}
-@media(min-width: 768px) {
 
-     hr {
-        margin-top: -10px;
-        width: 20%;
-    }
-}
-
-.cat-1 hr {
-    margin: 0 auto;
-    width: 30px;
-    border-width: 3px;
-    border-color: #31b0d5;
-}
-@media(min-width: 768px) {
-
-     hr {
-        margin-top: -10px;
-        width: 20%;
-    }
-}
 
 #index-body .tab-content {
     margin-top: 80px;
@@ -664,12 +660,7 @@ td {
     color: #d43f3a;
 }
 
-#index .last-block hr {
-    margin: 0 auto;
-    width: 15%;
-    height: 3px;
-    background-color: #d43f3a;
-}
+
 
 #index .last-block h4 {
     margin: 0 auto;
@@ -822,12 +813,7 @@ td {
     }
 }
 
-#about .container hr {
-    margin: 0 auto;
-    width: 15%;
-    height: 3px;
-    background-color: #d43f3a;
-}
+
 
 #about .pricing .col-sm-4 {
     margin-top: 70px;
@@ -1028,13 +1014,7 @@ td {
     margin: 0 auto;
 }
 
-#single hr {
-    height: 1px;
-    background-color: rgba(0,0,0,0.2);
-    margin-top: 10px;
-    margin-bottom: 10px;
 
-}
 
 #single h2 {
     top: 11px;
@@ -1214,14 +1194,6 @@ td {
     font-weight: bold;
 }
 
-#contact hr {
-    margin: 0 auto;
-    float: left;
-    width: 20%;
-    height: 4px;
-    border: none;
-    background-color: #d43f3a;
-}
 
 #contact p {
     margin-top: 40px;
@@ -1649,9 +1621,7 @@ img {
         font-style: italic;
         line-height: 1.2em;
     }
-    hr {
-        width: 60%;
-    }
+  
 
 }
 
@@ -1677,9 +1647,7 @@ img {
         font-style: italic;
         line-height: 1.2em;
     }
-    hr {
-        width: 60%;
-    }
+ 
 
 }
 
@@ -1942,3 +1910,16 @@ img {
 }
 
 }
+
+
+/*------ Change hr and underlines to blue ------*/
+
+#index-body .table thead tr td a.active, #index-body .table thead tr td a.focus, #index-body .table thead tr td a:active, #index-body .table thead tr td a:focus, #index-body .table thead tr td a:hover {
+    border-bottom: solid 5px #d54a31;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
