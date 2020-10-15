@@ -495,10 +495,10 @@ const context = {
         },{
             img: '036PE.jpg',
         },{
-            img: '037PE.jpg',
+            img: '038PE.jpg',
         },{
-            img: '037PE.jpg',
-        },
+            img: '039PE.jpg',
+        }
     ],
     cat3001: [
         {
@@ -557,8 +557,6 @@ const context = {
             img: '028TA.jpg',
         },{
             img: '029TA.jpg',
-        },{
-            img: '030TA.jpg',
         },{
             img: '031TA.jpg',
         },{
@@ -654,7 +652,7 @@ const context = {
         },{
             img: '011TF.jpg',
         },{
-            img: '012TSFjpg',
+            img: '012TF.jpg',
         },{
             img: '013TF.jpg',
         },{
